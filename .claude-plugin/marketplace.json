@@ -1,0 +1,16 @@
+{
+  "name": "oporto-plugins",
+  "owner": {
+    "name": "Mauricio Oporto"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Mauricio Oporto."
+  },
+  "plugins": [
+    {
+      "name": "qa-kit",
+      "source": "./",
+      "description": "Summarize branch changes and review recent code with a code-reviewer subagent."
+    }
+  ]
+}
