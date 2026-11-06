@@ -26,8 +26,8 @@ claude --plugin-dir .
 This repo is also a plugin marketplace (`.claude-plugin/marketplace.json`). Inside Claude Code:
 
 ```
-/plugin marketplace add <owner>/claude-assemble-and-ship
-/plugin install qa-kit@qa-kit-marketplace
+/plugin marketplace add the-dsw/claude-assemble-and-ship
+/plugin install qa-kit@oporto-plugins
 ```
 
 ## Layout
@@ -41,5 +41,9 @@ This repo is also a plugin marketplace (`.claude-plugin/marketplace.json`). Insi
 │   └── summarize-changes.md
 ├── agents/
 │   └── code-reviewer.md
+├── .github/
+│   ├── scripts/validate-plugin.js
+│   └── workflows/validate.yml
+├── .gitignore
 └── README.md
 ```

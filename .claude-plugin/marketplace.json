@@ -1,7 +1,10 @@
 {
-  "name": "qa-kit-marketplace",
+  "name": "oporto-plugins",
   "owner": {
     "name": "Mauricio Oporto"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Mauricio Oporto."
   },
   "plugins": [
     {
