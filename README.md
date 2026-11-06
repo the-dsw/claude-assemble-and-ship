@@ -21,12 +21,22 @@ claude --plugin-dir .
 - Ask Claude to review your recent changes (for example "review my recent changes"). It should hand the work to `code-reviewer`.
 - After editing plugin files, run `/reload-plugins`.
 
+## Install from the marketplace
+
+This repo is also a plugin marketplace (`.claude-plugin/marketplace.json`). Inside Claude Code:
+
+```
+/plugin marketplace add <owner>/claude-assemble-and-ship
+/plugin install qa-kit@qa-kit-marketplace
+```
+
 ## Layout
 
 ```
 .
 ├── .claude-plugin/
-│   └── plugin.json
+│   ├── plugin.json
+│   └── marketplace.json
 ├── commands/
 │   └── summarize-changes.md
 ├── agents/
